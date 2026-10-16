@@ -61,8 +61,9 @@ footer.ft a{display:inline-flex;align-items:center;min-height:44px}
  .aitable thead{display:none}.aitable,.aitable tbody,.aitable tr,.aitable td{display:block;width:100%}.aitable tr{border-bottom:1px solid var(--line);padding:12px 0}.aitable td{border:0;padding:4px 0}
  .aitable td:before{content:attr(data-l);display:block;font:700 11px var(--body);text-transform:uppercase;letter-spacing:.16em;color:var(--mute);margin-bottom:2px}
  .chk li{flex-direction:column;gap:6px}.chk .tag{flex:none}
- .cta{padding:0 18px;font-size:14px}.mark{font-size:13px}
+ .cta{padding:0 18px;font-size:14px}.mark{font-size:13px;white-space:nowrap}
 }
+@media(max-width:480px){.mark i{display:none}}
 
 :root{--bg:#07090f;--tx:#cfd8e1;--ink:#fff;--mute:#8b97a6;--card:#0e1626;--line:rgba(207,216,225,.14);--acc:#00f0f8;--good:#5fe3c0;--bad:#ff7a3d;--note:#f2c14e;--r:6px;
 --head:"Mona Sans",system-ui,sans-serif;--body:"Mona Sans",system-ui,sans-serif;--cta-bg:#00f0f8;--cta-tx:#04121a;
